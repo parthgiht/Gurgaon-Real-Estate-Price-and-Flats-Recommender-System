@@ -1,2 +1,1 @@
-[runtime]
-pythonVersion = "3.11"
+mkdir -p .streamlit && echo -e "[runtime]\npythonVersion = \"3.11\"" > .streamlit/config.toml && git add .streamlit/config.toml && git commit -m "Fix: pin Python to 3.11 for Streamlit compatibility" && git push
