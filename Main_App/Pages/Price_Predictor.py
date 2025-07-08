@@ -9,9 +9,9 @@ def price_predictor_ui():
 
     # read df.pkl and pipeline.pkl with error handling
     try:
-        with open('df.pkl', 'rb') as file:
+        with open('Datasets/df.pkl', 'rb') as file:
             df = pickle.load(file)
-        with open('pipeline.pkl', 'rb') as file:
+        with open('Datasets/pipeline.pkl', 'rb') as file:
             pipeline = pickle.load(file)
     except Exception as e:
         st.error(f"Error loading model or data: {e}")
