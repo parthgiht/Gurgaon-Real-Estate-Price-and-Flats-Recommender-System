@@ -61,7 +61,7 @@ Home.py: The main landing page with an overview of the application and its featu
     - `location_distance.pkl`, `cosine_sim1.pkl`, `cosine_sim2.pkl`, `cosine_sim3.pkl`: Files          for apartment recommendation logic.
  
 
-## 🛠️ Technologies Used
+## 🛠️ Libraries Used
 
 - `Python`: Core programming language.
 
