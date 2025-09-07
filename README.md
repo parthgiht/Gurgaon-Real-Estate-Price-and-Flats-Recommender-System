@@ -36,30 +36,23 @@ Price per Sqft Geomap: Displays average price per square foot across sectors in 
 
 
 
-## 🧱 Project Structure
-
-The project consists of the following key files:
-
-Home.py: The main landing page with an overview of the application and its features.
-
-- **1_Price_Predictor.py**: Implements the property price prediction module using a pre-trained machine learning model.
-
-- **2_Analytics_Module.py**: Contains the interactive visualization dashboard with various charts and maps.
-
-- **3_Recommend_Apartments.py**: Provides apartment recommendations based on user-selected properties and locations.
-
-- **Datasets/**: Directory containing datasets and pre-trained models:
-
-    - `data_viz1.csv`: Dataset for visualizations.
-
-    - `df.pkl`: Pickled dataset for price prediction.
-
-    - `pipeline.pkl`: Pre-trained machine learning model for price prediction.
-
-    - `feature_text.pkl`: Data for generating word clouds.
-
-    - `location_distance.pkl`, `cosine_sim1.pkl`, `cosine_sim2.pkl`, `cosine_sim3.pkl`: Files          for apartment recommendation logic.
- 
+## 🧱 Project structure
+```
+project/
+├── Home.py                          
+├── 1_Price_Predictor.py             
+├── 2_Analytics_Module.py            
+├── 3_Recommend_Apartments.py        
+└── Datasets/                        
+    ├── data_viz1.csv                
+    ├── df.pkl                       
+    ├── pipeline.pkl                
+    ├── feature_text.pkl             
+    ├── location_distance.pkl        
+    ├── cosine_sim1.pkl              
+    ├── cosine_sim2.pkl              
+    └── cosine_sim3.pkl              
+```
 
 ## 🛠️ Libraries Used
 
